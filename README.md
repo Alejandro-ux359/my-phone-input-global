@@ -9,16 +9,16 @@ Ideal para empaquetar y usar en cualquier proyecto React.
 ## 📦 Instalación
 
 ```bash
-npm install my-phone-input
+npm install my-phone-input-global
 
 
-yarn add my-phone-input
+yarn add my-phone-input-global
 
 ```
 
 
 import React, { useState } from "react";
-import { MyPhone } from "my-phone-input";
+import { MyPhone } from "my-phone-input-global";
 
 export default function App() {
   const [phone, setPhone] = useState("");

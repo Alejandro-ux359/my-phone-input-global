@@ -4,14 +4,19 @@
   "main": "dist/my-phone.cjs.js",
   "module": "dist/my-phone.es.js",
   "types": "dist/MyPhone.d.ts",
+  "license": "MIT",
   "files": [
     "dist"
   ],
+  "keywords": ["phone", "input", "flags", "typescript"],
+  "author": "Alejandro Rodríguez <aprendisajedeprogramacion0321@gmail.com>",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+
+
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

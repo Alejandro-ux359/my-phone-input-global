@@ -1,0 +1,77 @@
+.my-phone {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+}
+
+/* CONTENEDOR IZQUIERDO */
+.my-phone__country {
+  position: relative;
+}
+
+/* PAÍS SELECCIONADO */
+.my-phone__selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 0 10px;
+  width: 110px;
+  height: 42px;
+
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+
+  box-sizing: border-box;
+}
+
+/* ELEMENTOS INTERNOS */
+.flag {
+  font-size: 30px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code {
+  flex: 1;
+  text-align: center;
+}
+
+.arrow {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+/* SELECT REAL */
+.my-phone__select {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* INPUT TEL */
+.my-phone input {
+  width: 200px;
+  height: 42px;
+  padding: 0 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 0 8px 8px 0;
+  font-size: 14px;
+  outline: none;
+
+  box-sizing: border-box;
+}
+
+/* FOCUS UNIFICADO */
+.my-phone:focus-within .my-phone__selected,
+.my-phone:focus-within input {
+  border-color: #000;
+}

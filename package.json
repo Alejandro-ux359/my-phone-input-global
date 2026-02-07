@@ -1,13 +1,11 @@
 {
   "name": "my-phone-input-global",
-  "version": "1.0.2",
-  "main": "dist/my-phone.cjs.js",
+  "version": "1.0.3",
+ "main": "dist/my-phone.cjs.js",
   "module": "dist/my-phone.es.js",
-  "types": "dist/MyPhone.d.ts",
+  "types": "dist/types/index.d.ts", 
+  "files": ["dist"],
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "keywords": ["phone", "input", "flags", "typescript"],
   "author": "Alejandro Rodríguez <aprendisajedeprogramacion0321@gmail.com>",
   "scripts": {

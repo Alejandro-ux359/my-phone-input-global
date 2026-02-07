@@ -1,2 +1,4 @@
-export { default as MyPhone } from "./MyPhone";
-import "./style.css";
+import { FC } from "react";
+
+export const MyPhone: FC;
+
